@@ -67,7 +67,7 @@ const App = () => {
 
   return (
     <div>
-      {console.log(voted)}
+      {console.log({ voted, selected })}
       <Anecdote
         anecdotes={anecdotes}
         selected={selected}
